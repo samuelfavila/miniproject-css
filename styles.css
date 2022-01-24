@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin: 0;
+}
+
+.box {
+	width: 80%;
+	margin: auto;
+}
+
+.container {
+	background-color: #333;
+	color: #eee;
+	width: 80%;
+
+	margin: auto;
+
+	padding: 60px;
+
+	border-top: 5px double red;
+	border-bottom: 5px dotted rgb(0, 0, 225);
+	border-left: 5px solid rgba(0, 255, 0, 0.2);
+	border-right: 5px solid yellow;
+}
+
+#main-aside-h2 {
+	text-align: center;
+}
+
+#main-aside-h2:hover {
+	color: green;
+	cursor: pointer;
+}
+
+.main-aside ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.main-aside ul a {
+	text-decoration: none;
+	color: black;
+}
+
+.main-aside ul a:hover {
+	color: red;
+}
+
+.main-aside ul a:visited {
+	color: green;
+}
+
+/* Formulários */
+#main-form {
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.form-group {
+	padding-bottom: 10px;
+}
+
+.form-group label {
+	display: block;
+}
+
+.form-group input {
+	padding: 3px;
+	width: 100%;
+}
+
+.button {
+	background-color: #333;
+	padding: 10px;
+	color: #eee;
+	border: none;
+	margin-bottom: 10px;
+}
+
+/* Positions */
+.relative {
+	position: relative;
+	border: 3px solid #333;
+	height: 500px;
+	border-radius: 7px;
+}
+
+.relative .absolute {
+	position: absolute;
+	bottom: 0;
+}
+
+.relative .absolute h1 {
+	margin: 0;
+}
+
+/* Barra de navegação */
+
+#main-navbar {
+	background-color: #333;
+	color: #eee;
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+
+	position: sticky;
+	top: 0;
+}
+
+/* Fixed Button */
+
+.fixed-button {
+	background-color: #333;
+	color: #eee;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 10px;
+}
+
+/* Categories */
+
+.categories ul {
+	list-style: none;
+}
+
+/* .categories ul li:first-child {
+	color: red;
+}
+
+.categories ul li:last-child {
+	color: green;
+}
+
+.categories ul li:nth-child(3) {
+	color: blue;
+} */
+
+.categories ul li:nth-child(even) {
+	color: red;
+}
+
+.categories ul li:nth-child(odd) {
+	color: blue;
+}
